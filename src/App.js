@@ -5,6 +5,7 @@ import Posts from "./Posts";
 import "./styles.css";
 
 function App() {
+  /* 참고 : https://chanhuiseok.github.io/posts/react-12/ */
   const [posts, setPosts] = useState([]); //posts state에는 실제 json 데이터들이 array형태로 들어오므로 초기값을 배열로 설정.
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
